@@ -1,2 +1,1 @@
-# mir4-autobuild
-# mir4-autobuild
+小米路由器4 openwrt自动编译固件
