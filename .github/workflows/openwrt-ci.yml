@@ -229,6 +229,8 @@ jobs:
           CONFIG_FEED_luci=y
           CONFIG_FEED_routing=y
           CONFIG_FEED_telephony=y
+          CONFIG_PACKAGE_ipset=y
+          CONFIG_PACKAGE_ipset-dns=y
           CONFIG_PACKAGE_base-files=y
           CONFIG_PACKAGE_busybox=y
           CONFIG_BUSYBOX_DEFAULT_HAVE_DOT_CONFIG=y
@@ -555,6 +557,7 @@ jobs:
           CONFIG_PACKAGE_libgcc=y
           CONFIG_PACKAGE_libpthread=y
           CONFIG_PACKAGE_librt=y
+          CONFIG_PACKAGE_libipset=y
           CONFIG_PACKAGE_logd=y
           CONFIG_PACKAGE_mtd=y
           CONFIG_PACKAGE_netifd=y
@@ -574,6 +577,7 @@ jobs:
           CONFIG_PACKAGE_usign=y
           CONFIG_ZABBIX_NOSSL=y
           CONFIG_ZABBIX_POSTGRESQL=y
+          CONFIG_PACKAGE_wget=y
           CONFIG_PACKAGE_wireless-regdb=y
           CONFIG_PACKAGE_kmod-leds-gpio=y
           CONFIG_PACKAGE_kmod-lib-crc-ccitt=y
