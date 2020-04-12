@@ -111,7 +111,7 @@ jobs:
           CONFIG_LINUX_4_14=y
           CONFIG_DEFAULT_base-files=y
           CONFIG_DEFAULT_busybox=y
-          #CONFIG_DEFAULT_dnsmasq=y
+          CONFIG_DEFAULT_dnsmasq=y
           CONFIG_DEFAULT_dropbear=y
           CONFIG_DEFAULT_firewall=y
           CONFIG_DEFAULT_fstools=y
