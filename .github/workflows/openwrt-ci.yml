@@ -111,6 +111,7 @@ jobs:
           CONFIG_LINUX_4_14=y
           CONFIG_DEFAULT_base-files=y
           CONFIG_DEFAULT_busybox=y
+          CONFIG_DEFAULT_dnsmasq-full=y
           CONFIG_DEFAULT_dropbear=y
           CONFIG_DEFAULT_firewall=y
           CONFIG_DEFAULT_fstools=y
@@ -123,7 +124,6 @@ jobs:
           CONFIG_DEFAULT_kmod-mt7603=y
           CONFIG_DEFAULT_kmod-mt76x2=y
           CONFIG_DEFAULT_libc=y
-          CONFIG_DEFAULT_dnsmasq-full=y
           CONFIG_DEFAULT_libgcc=y
           CONFIG_DEFAULT_logd=y
           CONFIG_DEFAULT_mtd=y
@@ -542,7 +542,6 @@ jobs:
           CONFIG_PACKAGE_dnsmasq_full_auth=y
           CONFIG_PACKAGE_dnsmasq_full_ipset=y
           CONFIG_PACKAGE_dnsmasq_full_conntrack=y
-          CONFIG_PACKAGE_dnsmasq_full_noid=y
           CONFIG_PACKAGE_dropbear=y
           CONFIG_DROPBEAR_CURVE25519=y
           CONFIG_DROPBEAR_DBCLIENT=y
