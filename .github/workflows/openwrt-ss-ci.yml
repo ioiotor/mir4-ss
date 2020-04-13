@@ -61,9 +61,9 @@ jobs:
         run: |
           ./scripts/feeds update -a
           ./scripts/feeds install -a
-          rm -rf feeds/packages/net/kcptun
       - name: Costom configure file
         run: |
+          rm -rf ./feeds/packages/net/kcptun
           rm -f ./.config*
           touch ./.config
           #
