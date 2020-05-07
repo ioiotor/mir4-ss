@@ -475,6 +475,10 @@ ramips_setup_interfaces()
 		ucidef_add_switch "switch0" \
 			"4:lan:1" "2:lan:2" "0:wan" "6@eth0"
 		;;
+	xiaomi,rm2100)
+		ucidef_add_switch "switch0" \
+			"2:lan:1" "3:lan:2" "4:lan:3" "0:wan" "6@eth0"
+		;;
 	zbtlink,zbt-we1226|\
 	y1)
 		ucidef_add_switch "switch0" \
@@ -689,7 +693,8 @@ ramips_setup_macs()
 		;;
 	xiaomi,mir3g|\
 	xiaomi,mir3p|\
-	xiaomi,mir4)
+	xiaomi,mir4|\
+	xiaomi,rm2100)
 		lan_mac=$(mtd_get_mac_binary Factory 0xe006)
 		;;
 	zyxel,keenetic-start)
