@@ -298,7 +298,7 @@ define Device/xiaomi_mir3g
 endef
 TARGET_DEVICES += xiaomi_mir3g
 
-define Device/xiaomi_mir4
+define Device/xiaomi_mi-router-4
   DTS := MIR4
   BLOCKSIZE := 128k
   PAGESIZE := 2048
